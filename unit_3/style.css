@@ -35,12 +35,7 @@ h1 {
 
 }
 
-}
 
-body{
-	/*background-image: url(file:///Users/NicholeWeber/Documents/GitHub/nicholeannew.github.io/unit_3/images/nicholeb&w.jpg);*/
-	
-}
 p,li,ul {
 	
 	font-family: 'Montserrat', sans-serif;
@@ -75,8 +70,7 @@ img{
 
 #image{
 	/*background-image: url(file:///Users/NicholeWeber/Documents/GitHub/nicholeannew.github.io/unit_3/images/nicholeb&w.jpg);*/
-	/*background-image: url("nicholeb&w.jpg");*/
-	background-image: url(https://www.pexels.com/photo/background-colors-dark-decay-878167/);
+	
 	background-size: cover;
 	height: 46.87em;
 	padding: 1.25em 0;
