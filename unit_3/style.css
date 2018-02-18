@@ -71,7 +71,7 @@ img{
 
 #image{
 	/*background-image: url(file:///Users/NicholeWeber/Documents/GitHub/nicholeannew.github.io/unit_3/images/nicholeb&w.jpg);*/
-	background:url('../../images/nicholeb&w.jpg') no-repeat;
+	background:url('././images/nicholeb&w.jpg') no-repeat;
 	background-size: cover;
 	height: 46.87em;
 	padding: 1.25em 0;
