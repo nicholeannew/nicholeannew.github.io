@@ -1,0 +1,29 @@
+
+
+header{
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+	text-align: center;
+	
+}
+
+nav{
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer{
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+	color: red;
+}	
+
+section{
+	background-color: #FFe2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
