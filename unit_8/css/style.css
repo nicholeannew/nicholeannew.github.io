@@ -1,6 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Racing+Sans+One);
 @import url(https://fonts.googleapis.com/css?family=Crimson+Text);
 @import url(https://fonts.googleapis.com/css?family=Allerta);
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 
 
 *{
@@ -9,25 +10,50 @@
 }
 
 body{
-	background-color: #fee6d9;
+	background-color: #fafafa;
 	font-size: 16px;
+	padding: 0 40px;
 	
 }
 
 header{
-	padding:0 200px;
+	padding:20px 40px;
 }
 
+h1{
+	font-family:'Raleway', sans-serif;
+	letter-spacing: 1em;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-style: thin;
+	display: block;
+	text-align: left;
+
+
+}
+
+h2{
+	font-family:'Raleway', sans-serif;
+	letter-spacing: 1.1em;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-style: thin;
+	display: block;
+	padding: 0 25px;
+	text-align: left;
+
+
+}
 nav {
 	margin:2.5em;
-	text-align: center;
+	text-align: right;
 }
 
 nav a:link{
 	font-family: 'Allerta', sans-serif;
-	color:#FFF;
-	padding:0 20px;
-	font-size: 1em;
+	color:#fee6d9;
+	padding:20px;
+	font-size: 1.2em;
 	text-align: center;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -36,10 +62,34 @@ nav a:link{
 }
 
 nav a:visited{
-	color:#FFF;
+	color:#fee6d9;
 }
 
 nav a:hover{
 	color:#FFF;
 }
 
+img{
+	width: 100%
+}
+
+h3{
+	font-family: 'Allerta', sans-serif;
+	color:#000;
+	padding:20px;
+	font-size: 1.2em;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+
+}
+
+.clearfix:after{
+	height:0;
+	font-size:0;
+	visibility:hidden;
+	display:block;
+	content:" ";
+	clear:both;
+}
