@@ -85,6 +85,24 @@ h3{
 
 }
 
+hr{
+	border: none;
+	width: 2em;
+	margin: 1em auto;
+}
+
+label{
+	font-family: 'Allerta', sans-serif;
+	color:#fee6d9;
+	padding:0 32px;
+	font-size: 1.5em;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	display: none;
+
+}
+
 
 .clearfix:after{
 	height:0;
@@ -94,3 +112,77 @@ h3{
 	content:" ";
 	clear:both;
 }
+
+#toggle{
+	display: none;
+	
+}
+
+@media screen and (max-width:800px){
+	nav{
+		display: none;
+	}
+	
+	nav a:link{
+		display: block;
+		padding: 10px;
+		margin: 2px;
+
+	}
+
+	header{
+		padding: 20px 10px;
+	}
+
+	label{
+		display: block;
+		text-align: right;
+
+
+	}
+
+	#toggle:checked + nav{
+		display: block;
+
+	}
+
+
+}
+
+@media screen and (max-width:480px){
+	
+	header{
+		padding: 40px 10px;
+	}
+	
+	#toggle:checked + nav{
+		display: block;
+	}
+	label{
+		display: block;
+		padding: 1em;
+		padding-right: 5em;
+	}
+
+	h1{
+		font-family:'Raleway', sans-serif;
+		letter-spacing: 1em;
+		font-size: 1.5em;
+		text-transform: uppercase;
+		font-style: thin;
+		display: block;
+		text-align: center;
+	}
+	
+	h2{
+		font-family:'Raleway', sans-serif;
+		letter-spacing: 1.1em;
+		font-size: 1.5em;
+		text-transform: uppercase;
+		font-style: thin;
+		display: block;
+		padding: 0 25px;
+		text-align: center;
+
+	}
+}	
