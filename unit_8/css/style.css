@@ -107,10 +107,12 @@ label{
 #IG{
 	width: 2%;
 	padding: .5em;
+
 }
 #mail{
 	width: 2%;
 	padding: .5em;
+
 }
 
 .social{
@@ -212,11 +214,13 @@ label{
 
 	#IG{
 		width: 5%;
-		padding: .5em;
+		padding: .75em;
+		
 	}
 	#mail{
 		width: 5%;
-		padding: .5em;
+		padding: .75em;
+
 	}
 
 }	
