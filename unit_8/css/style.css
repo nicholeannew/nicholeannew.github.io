@@ -182,8 +182,8 @@ label{
 	}
 
 	.column{
-		flex: 50%;
-		max-width: 50%
+		flex: 25%;
+		max-width: 25%
 	}
 
 	#toggle:checked + nav{
@@ -217,7 +217,7 @@ label{
 		flex: 100%;
 		max-width: 100%;
 	}
-	
+
 	main{
 		padding:.5em;
 
