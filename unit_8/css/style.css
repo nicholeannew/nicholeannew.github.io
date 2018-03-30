@@ -17,7 +17,7 @@ body{
 }
 
 header{
-	padding:3em 2.5em .5em;
+	padding:1em 2.5em .5em;
 	border: 2em;
 }
 
@@ -52,12 +52,15 @@ h3{
 	font-style: thin;
 	display: block;
 	text-align: center;
+
 	
 
 }
 nav {
-	margin:2.5em;
-	text-align: right;
+	margin:1em;
+	padding: 1.5em;
+	float: right;
+	display: block;
 }
 
 nav a:link{
@@ -81,12 +84,13 @@ nav a:hover{
 }
 
 main{
-	padding: .5em 2em;
+	padding: 4em 10em;
 }
 
 
 img{
-	width: 100%
+	width: 100%;
+
 }
 
 p{
