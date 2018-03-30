@@ -47,13 +47,20 @@ h2{
 h3{
 	font-size: 1em;
 	font-family:'Allerta', sans-serif;
-	letter-spacing: .5em;
+	letter-spacing: .25em;
 	text-transform: uppercase;
 	font-style: thin;
 	display: block;
 	text-align: center;
 
-	
+}
+
+p{
+	font-size: 1em;
+	font-family:'Allerta', sans-serif;
+	display: block;
+	text-align: center;
+	padding: 3em;
 
 }
 nav {
@@ -94,22 +101,12 @@ img{
 
 }
 
-p{
-	font-family: 'Allerta', sans-serif;
-	color:#000;
-	padding:20px;
-	font-size: 1.2em;
-	text-align: center;
-	text-transform: uppercase;
-	text-decoration: none;
-	letter-spacing: 2px;
-
-}
 
 hr{
 	border: solid black thin;
 	width: 2em;
 	margin: 1em auto;
+
 }
 
 
@@ -131,7 +128,6 @@ footer{
 }
 
 
-
 #IG{
 	width: 2%;
 	padding: .5em;
@@ -148,12 +144,33 @@ footer{
 	background-color: #fee6d9;
 }
 
-#aboutme{
-	width: 33.3%;
-	padding: .5em 2em;
-}
 #toggle{
 	display: none;
+}
+
+#aboutme{
+	padding: 2em 10em;
+}
+
+#left{
+	padding: 2em;
+	float: left;
+	width: 40%
+}
+
+#right{
+	padding: 2em;
+	float: right;
+	width: 40%;
+
+}
+
+.wrapper{
+	padding: .5em 1em;
+}
+
+.mainwrapper{
+	padding: 10em;
 }
 
 .clearfix:after{
@@ -169,24 +186,24 @@ footer{
 @media screen and (max-width:1100px){
 	nav{
 		display: none;
-}
+	}
 	
 	nav a:link{
 		display: block;
 		padding: 10px;
 		margin: 2px;
 
-}
+	}
 
 	header{
 		padding: 20px 10px;
-}
+	}
 
 	label{
 		display: block;
 		text-align: right;
 
-}
+	}
 	img{
 		width: 100%;
 	}
@@ -195,29 +212,27 @@ footer{
 	.column{
 		flex: 40%;
 		max-width: 40%
-}
+	}
 
 	#toggle:checked + nav{
 		display: block;
 
-}
+	}
 
 	#IG{
 		width: 3.5%;
 		padding: .50em;
-}
+	}
 	#mail{
 		width: 3.5%;
 		padding: .50em;
-}
+	}
 
-/*	#aboutmepic{
-	width: 50%;
-	padding: .75em;
-}
-*/
 
 }
+
+
+
 
 @media screen and (max-width:650px){
 	
@@ -229,10 +244,6 @@ footer{
 		display: block;
 	}
 
-	.column{
-		flex: 100%;
-		max-width: 100%;
-	}
 
 	main{
 		padding:.5em;
@@ -284,9 +295,7 @@ footer{
 		padding: .75em;
 
 	}
-	/*#aboutmepic{
-	display: none;
-	}*/
+
 
 	
 }	
