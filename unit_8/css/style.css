@@ -74,6 +74,7 @@ main{
 	padding: .5em 2em;
 }
 
+
 img{
 	width: 100%
 }
@@ -108,6 +109,17 @@ label{
 	display: none;
 
 }
+aside{
+	float: right;
+	position: relative;
+	width: 33.3%;
+	padding: .5em 2em;
+
+}
+
+footer{
+	clear: both;
+}
 
 
 
@@ -122,9 +134,14 @@ label{
 
 }
 
-.social{
+#social{
 	padding: 1em 0;
 	background-color: #fee6d9;
+}
+
+#aboutmepic{
+	width: 50%;
+	padding: 1em;
 }
 
 .row{
@@ -142,6 +159,7 @@ label{
  	margin-top: 8px;
  	vertical-align: middle;
  }
+
 
 .clearfix:after{
 	height:0;
