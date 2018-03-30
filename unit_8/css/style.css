@@ -181,10 +181,10 @@ label{
 
 	}
 
-	.column{
+	/*.column{
 		flex: 25%;
 		max-width: 25%
-	}
+	}*/
 
 	#toggle:checked + nav{
 		display: block;
