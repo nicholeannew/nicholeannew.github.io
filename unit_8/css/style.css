@@ -181,6 +181,11 @@ label{
 
 	}
 
+	.column{
+		flex: 50%;
+		max-width: 50%
+	}
+
 	#toggle:checked + nav{
 		display: block;
 
@@ -208,6 +213,11 @@ label{
 		display: block;
 	}
 
+	.column{
+		flex: 100%;
+		max-width: 100%;
+	}
+	
 	main{
 		padding:.5em;
 
