@@ -133,8 +133,8 @@ label{
 	padding: 0 4px;
 }
  .column{
- 	flex: 25%;
- 	max-width: 25%;
+ 	flex: 20%;
+ 	max-width: 20%;
  	padding: 0 4px;
  }
 
@@ -181,10 +181,10 @@ label{
 
 	}
 
-	/*.column{
-		flex: 25%;
-		max-width: 25%
-	}*/
+	.column{
+		flex: 40%;
+		max-width: 40%
+	}
 
 	#toggle:checked + nav{
 		display: block;
