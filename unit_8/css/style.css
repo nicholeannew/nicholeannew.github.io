@@ -17,7 +17,8 @@ body{
 }
 
 header{
-	padding:20px 40px;
+	padding:3em 2.5em;
+	border: 2em;
 }
 
 h1{
@@ -69,6 +70,10 @@ nav a:hover{
 	color:#FFF;
 }
 
+main{
+	padding: 4em 2em;
+}
+
 img{
 	width: 100%
 }
@@ -103,6 +108,8 @@ label{
 	display: none;
 
 }
+
+
 
 #IG{
 	width: 2%;
@@ -165,11 +172,11 @@ label{
 
 	#IG{
 		width: 3.5%;
-		padding: 1.25em;
+		padding: .50em;
 	}
 	#mail{
 		width: 3.5%;
-		padding: 1.25em;
+		padding: .50em;
 	}
 
 
@@ -183,6 +190,11 @@ label{
 	
 	#toggle:checked + nav{
 		display: block;
+	}
+
+	main{
+		padding:.5em;
+
 	}
 	label{
 		display: block;
