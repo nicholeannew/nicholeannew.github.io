@@ -140,6 +140,11 @@ footer{
 
 }
 
+#contactinfo{
+	padding: 13em 10em;
+
+}
+
 #social{
 	padding: 1em 0;
 	background-color: #fee6d9;
@@ -231,6 +236,7 @@ footer{
 
 	#toggle:checked + nav{
 		display: block;
+		float: none;
 
 	}
 
@@ -266,6 +272,10 @@ footer{
 
 
 @media screen and (max-width:650px){
+
+	#contactinfo{
+		padding:15em 1em;
+	}
 	
 	#header{
 		padding: 40px 10px;
@@ -273,6 +283,9 @@ footer{
 	
 	#toggle:checked + nav{
 		display: block;
+		float: none;
+
+
 	}
 
 
