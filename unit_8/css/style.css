@@ -167,16 +167,23 @@ footer{
 }
 
 #grid{
-	padding: 1em;
+	padding: .2em;
 }
 
 .pics{
-	width: 25%;
-	padding: .5%;
-	margin: .5%;
+	width: 23%;
+	padding: .2em;
+	margin: .2em;
 	float: left;
-	position: relative;
 }
+
+.widepics{
+	width: 47%;
+	padding: .2em;
+	margin: .2em;
+	float: left;
+}
+
 .wrapper{
 	padding: .5em 1em;
 }
