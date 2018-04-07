@@ -249,6 +249,25 @@ footer{
 		padding: .50em;
 	}
 
+	#aboutme{
+		padding: .01em;
+	}
+
+	#left{
+	padding:1em;
+	float: left;
+	width: 50%;
+	/*font-size: .8em;*/
+
+
+}
+
+#right{
+	padding: 1em;
+	float: right;
+	width: 40%;
+
+}
 
 }
 @media screen and (max-width:900px){
@@ -258,15 +277,30 @@ footer{
 	padding: .2em;
 	margin: .2em;
 	float: left;
-}
+	}
 
 .widepics{
 	width: 90%;
 	padding: .2em;
 	margin: .2em;
 	float: none;
-}
+	}
+	#aboutme{
+		padding:3em;
+	}
 
+	#left{
+	padding:1em;
+	width: 100%;
+	/*font-size: .8em;*/
+
+
+	}
+
+	#right{
+	display: none;
+
+	}
 }
 
 
@@ -340,6 +374,14 @@ footer{
 
 	}
 
+	#aboutme{
+		padding:.1em;
+		width: 100%;
+	}
+	#left{
+		padding: .01em;
+	}
+
 	.pics{
 	width: 90%;
 	padding: .2em;
@@ -354,7 +396,4 @@ footer{
 	float: none;
 	}
 
-}
-
-	
 }	
