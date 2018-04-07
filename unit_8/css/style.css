@@ -67,8 +67,8 @@ nav {
 	margin:1em;
 	padding: 1.5em;
 	text-align: right;
-	/*float: right;
-	display: block;*/
+	float: right;
+	display: block;
 }
 
 nav a:link{
@@ -93,6 +93,7 @@ nav a:hover{
 
 main{
 	padding: 2em 10em;
+	clear: both;
 }
 
 
@@ -165,12 +166,19 @@ footer{
 
 }
 
-.wrapper{
-	padding: .5em 1em;
+#grid{
+	padding: 1em;
 }
 
-.mainwrapper{
-	padding: 10em;
+.pics{
+	width: 25%;
+	padding: .5%;
+	margin: .5%;
+	float: left;
+	position: relative;
+}
+.wrapper{
+	padding: .5em 1em;
 }
 
 .clearfix:after{
