@@ -150,11 +150,11 @@ footer{
 }
 
 #aboutme{
-	padding: 2em 10em;
+	padding: 1em;
 }
 
 #left{
-	padding: 2em;
+	padding:10em 2em;
 	float: left;
 	width: 40%
 }
@@ -224,10 +224,10 @@ footer{
 	}
 
 
-	.column{
+	/*.column{
 		flex: 40%;
 		max-width: 40%
-	}
+	}*/
 
 	#toggle:checked + nav{
 		display: block;
@@ -245,7 +245,23 @@ footer{
 
 
 }
+@media screen and (max-width:900px){
 
+	.pics{
+	width: 47%;
+	padding: .2em;
+	margin: .2em;
+	float: left;
+}
+
+.widepics{
+	width: 90%;
+	padding: .2em;
+	margin: .2em;
+	float: none;
+}
+
+}
 
 
 
@@ -311,6 +327,21 @@ footer{
 
 	}
 
+	.pics{
+	width: 90%;
+	padding: .2em;
+	margin: .2em;
+	float: none;
+	}
+
+.widepics{
+	width: 90%;
+	padding: .2em;
+	margin: .2em;
+	float: none;
+	}
+
+}
 
 	
 }	
